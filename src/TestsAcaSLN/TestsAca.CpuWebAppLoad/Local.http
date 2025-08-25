@@ -1,7 +1,11 @@
-### create cpu load
-GET {{url}}/loads/cpu
+### check if site is live
+GET {{url}}/isalive
+
+### create cpu load with no time limit
+GET {{url}}/loads/cpu-no-time-limit
+
+### create cpu load with no time limit
+GET {{url}}/loads/cpu-with-time-limit?seconds=60
 Accept: application/json
 
-### check if site is live
-GET {{url}}/isalive 
 
