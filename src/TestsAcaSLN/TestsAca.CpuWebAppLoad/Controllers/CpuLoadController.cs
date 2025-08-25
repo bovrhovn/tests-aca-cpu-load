@@ -20,7 +20,7 @@ public class CpuLoadController(ILogger<CpuLoadController> logger) : ControllerBa
                 {
                     // Tight loop with floating-point math
                     double result = 0;
-                    for (int j = 0; j < 1000000; j++)
+                    for (var j = 0; j < 1000000; j++)
                     {
                         result += Math.Sqrt(j) * Math.Sin(j);
                         logger.LogInformation("Intermediate result: {Result}", result);

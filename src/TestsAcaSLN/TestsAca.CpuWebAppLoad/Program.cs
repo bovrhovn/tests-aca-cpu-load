@@ -1,17 +1,14 @@
 using HealthChecks.UI.Client;
 using Microsoft.AspNetCore.Diagnostics.HealthChecks;
+using Microsoft.AspNetCore.HttpOverrides;
 
 var builder = WebApplication.CreateBuilder(args);
-
 builder.Services.AddHealthChecks();
 builder.Services.AddControllers();
-builder.Services.AddOpenApi();
-
+builder.Services.Configure<ForwardedHeadersOptions>(options =>
+    options.ForwardedHeaders = ForwardedHeaders.XForwardedFor | ForwardedHeaders.XForwardedProto);
 var app = builder.Build();
-
-if (app.Environment.IsDevelopment()) app.MapOpenApi();
-
-app.UseAuthorization();
+app.UseForwardedHeaders();
 app.MapControllers();
 app.MapHealthChecks("/isalive", new HealthCheckOptions
 {
