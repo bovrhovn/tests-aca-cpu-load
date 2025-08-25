@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestsAca.CpuLoad", "TestsAca.CpuLoad\TestsAca.CpuLoad.csproj", "{66DE6E6B-B7DC-467A-8BAD-C49691BB4AEF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestsAca.CpuWebAppLoad", "TestsAca.CpuWebAppLoad\TestsAca.CpuWebAppLoad.csproj", "{C144C80A-6F9C-42AC-BADC-158E779A2E16}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{66DE6E6B-B7DC-467A-8BAD-C49691BB4AEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{66DE6E6B-B7DC-467A-8BAD-C49691BB4AEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{66DE6E6B-B7DC-467A-8BAD-C49691BB4AEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C144C80A-6F9C-42AC-BADC-158E779A2E16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C144C80A-6F9C-42AC-BADC-158E779A2E16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C144C80A-6F9C-42AC-BADC-158E779A2E16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C144C80A-6F9C-42AC-BADC-158E779A2E16}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
