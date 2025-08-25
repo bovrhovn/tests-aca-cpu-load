@@ -2,4 +2,6 @@
 GET {{url}}/loads/cpu
 Accept: application/json
 
+### check if site is live
+GET {{url}}/isalive 
 
