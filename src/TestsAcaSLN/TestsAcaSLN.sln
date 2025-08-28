@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestsAca.CpuLoad", "TestsAc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestsAca.CpuWebAppLoad", "TestsAca.CpuWebAppLoad\TestsAca.CpuWebAppLoad.csproj", "{C144C80A-6F9C-42AC-BADC-158E779A2E16}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestsAca.PlainWeb", "TestsAca.PlainWeb\TestsAca.PlainWeb.csproj", "{4C3A9A97-14D7-4D4C-AFF9-9D5086C463AA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{C144C80A-6F9C-42AC-BADC-158E779A2E16}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C144C80A-6F9C-42AC-BADC-158E779A2E16}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C144C80A-6F9C-42AC-BADC-158E779A2E16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C3A9A97-14D7-4D4C-AFF9-9D5086C463AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C3A9A97-14D7-4D4C-AFF9-9D5086C463AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C3A9A97-14D7-4D4C-AFF9-9D5086C463AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C3A9A97-14D7-4D4C-AFF9-9D5086C463AA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
